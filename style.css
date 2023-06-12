@@ -1,0 +1,58 @@
+/* :root{
+    --black
+} */
+
+/* scrollbar scc setting */
+
+
+/* scrollbar scc setting */
+header{
+    padding-top: 10px;
+}
+/* HEADER STYLINGS START */
+.logo-wrapper{
+    width: 256px;
+}
+nav ul {
+    height: 100%;
+}
+
+nav{
+    height: 100%;
+}
+nav ul li a {
+   color: black;
+  transition: 0.3s;
+  border-bottom: 2px solid transparent;
+  position: relative;
+}
+nav ul li:hover a{
+    border-color: orange;
+}
+nav ul li:hover{
+border-bottom: 2px solid orange;
+}
+
+ 
+
+nav ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+nav ul li:hover .dropdown{
+    opacity: 1;
+}
+.dropdown{
+    border: 1px solid red ;
+   position: absolute;
+   top: 100%;
+   width: 250px;
+   opacity: 0;
+   transition: 0.3s;
+}
+.dropdown a{
+    border-bottom: 1px solid grey;
+}
+    /* HEADER STYLINGS END */
